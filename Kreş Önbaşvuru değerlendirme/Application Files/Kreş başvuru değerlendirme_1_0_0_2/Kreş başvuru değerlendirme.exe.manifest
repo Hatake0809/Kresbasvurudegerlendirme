@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Kreş başvuru değerlendirme.exe" version="1.0.0.2" publicKeyToken="61dc95f7ef6138f7" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Kreş başvuru değerlendirme" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Kreş başvuru değerlendirme.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Bildirim Seçenekleri
+          Windows Kullanıcı Hesabı Denetimi düzeyini değiştirmek istiyorsanız,
+           requestedExecutionLevel düğümünü aşağıdakilerden biriyle değiştirin.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Geriye dönük uyumluluk için Dosya ve Kayıt Defteri Sanallaştırması
+         kullanmak istiyorsanız, requestedExecutionLevel düğümünü silin.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Kreş başvuru değerlendirme.exe" size="15272">
+      <assemblyIdentity name="Kreş başvuru değerlendirme" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>CRQJP6ix1grbXlPaQAdaK7FK/zHaWURxnmAjkRhd5v8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Newtonsoft.Json.dll" size="711952">
+      <assemblyIdentity name="Newtonsoft.Json" version="13.0.0.0" publicKeyToken="30AD4FE6B2A6AEED" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>4eJ697B+7t9c5xqSVfBCKBam/FhJpIPGcU4bRyBE+p0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Basvurudegerlendirme.exe" size="47588132">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>7Am/eYHvep/p188mlzx6M5741e0IxjRfuAHw7vvL5gc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Basvurudegerlendirme1.exe" size="47588270">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ze0EPN8ZojVZipIUGhZQduWCo2GYgEeCgB1t0r1axXk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Kreş başvuru değerlendirme.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=HATAKE\yahya" issuerKeyHash="6bdf091f71fa9814fe7fb381f2b0f8cecfa488e3" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>ytxbaKDGq4UapM/YcAnYlWYClc8+JJicIFLbs381NVw=</DigestValue></Reference></SignedInfo><SignatureValue>Y3FnKz1rkCuQgsGKmdu0upFPNFf7AUlYmRlJ8CbKUX91tEJt+EHF4XGcgxdlRZY/77b/ltA/EQ/78rYpTinYHUN9lVufMVXSyUgLH/CjoAj244N1Xvm3iHbkfWeeIbeM+9Si0wtJjifX7g+LXrvDNzPhPl40nKLVIAj1qHcsJUU=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>uNF246uOEf8RJiwEK2jKxR9DIgLwq/dd82wLH/HzlJPSQ56Il+PcfsaxSiiSA8hnXw+tAY6XwyElHriG0u76pPQT6NhsoYJxEcbSO/+Vwypj4UY8dpe0SLfQXX3X7kzV8Txd7K/kb7dmTuFfpCMIZhMvkK/UICCyGoUIWK06t90=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="5c35357fb3db52209c98243ecf95026695d80970d8cfa41a85abc6a0685bdcca" Description="" Url=""><as:assemblyIdentity name="Kreş başvuru değerlendirme.exe" version="1.0.0.2" publicKeyToken="61dc95f7ef6138f7" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=HATAKE\yahya</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Q87aCs6AE8pTE5xvXmM0ZoX0PoyaaBoPvdpCkrbFXrs=</DigestValue></Reference></SignedInfo><SignatureValue>haeI06a9DBjh8/lKcH21wyGprtd8ARvqfOtsrpT+GMJwbvFVdOpPQlX4xT+kBfMtBAOcG+LocjqdSd1l9lYxlLpYY4jigzhl3n2BMQPI0yf08D93o4Uf4lXTcjgsn/Lw0VWP8HkVlCKNcpmtYwK+FiHF4gAFzhzAkY1Xgdyh2Iw=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>uNF246uOEf8RJiwEK2jKxR9DIgLwq/dd82wLH/HzlJPSQ56Il+PcfsaxSiiSA8hnXw+tAY6XwyElHriG0u76pPQT6NhsoYJxEcbSO/+Vwypj4UY8dpe0SLfQXX3X7kzV8Txd7K/kb7dmTuFfpCMIZhMvkK/UICCyGoUIWK06t90=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIByTCCATKgAwIBAgIQHuezXdzWKI5HQKHH2e6dxDANBgkqhkiG9w0BAQsFADAjMSEwHwYDVQQDHhgASABBAFQAQQBLAEUAXAB5AGEAaAB5AGEwHhcNMjUwNzAzMDcxNDA4WhcNMjYwNzAzMTMxNDA4WjAjMSEwHwYDVQQDHhgASABBAFQAQQBLAEUAXAB5AGEAaAB5AGEwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALjRduOrjhH/ESYsBCtoysUfQyIC8Kv3XfNsCx/x85ST0kOeiJfj3H7GsUookgPIZ18PrQGOl8MhJR64htLu+qT0E+jYbKGCcRHG0jv/lcMqY+FGPHaXtEi30F191+5M1fE8Xeyv5G+3Zk7hX6QjCGYTL5Cv1CAgshqFCFitOrfdAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAOc1T0smUcdoENg1FWsgU3B8CjwvQ0OCbV7443xMHPhNE0g8eOKXPToF1ay+AyG6RT41hNGZQub3M04CIMfF3+OSz7cTNnAP8JvoJKXXhxhl+KHFE5NG4qzybjCr8u2wnmyjxS03jPG49ECB69MWST2eLsSfRz/snTwCubWTslHM=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
